@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "akg3V+NoZO7LE/9SoiuWNdiWm6aJwEd/dhz63zMhrjN6zYTWqOsE+swKtfSdJVFWsH0fw2Ctpk2rDsxvDZHn3A==",
+  "dgSpecHash": "NYYt5Npy0UHniLBPu0pwmTxCc45MrzU7UWxEq4xHdSNx4+OUlKe/ras1W/1kl3j7jFsLVA3YcmDWdWrze3REbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kitai\\OneDrive\\Рабочий стол\\Практика Головин\\PraktikaFurniture-main\\PraktikaFurniture\\PraktikaFurniture.csproj",
+  "projectFilePath": "C:\\Users\\kitai\\OneDrive\\Рабочий стол\\Практика Головин\\PraktikaUserApp\\PraktikaFurniture\\PraktikaFurniture.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kitai\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\kitai\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

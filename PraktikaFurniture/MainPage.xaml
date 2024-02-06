@@ -22,13 +22,14 @@
                 <RadioButton Name="CheapRadioBttn" Content="Сначала дешевле" Checked="CheapRadioBttn_Checked"/>
                 <RadioButton Name="PriceyRadioBttn" Content="Сначала дороже" Checked="PriceyRadioBttn_Checked"/>
             </StackPanel>
-            <Button Name="DropFilters" Click="DropFilters_Click" Content="Сбросить фильтры" Margin="20 15 0 15" Background="DarkBlue" Foreground="White" FontWeight="Bold"/>
+            <Button Name="DropFilters" Click="DropFilters_Click" Content="Сбросить фильтры" Margin="20 15 0 15" Background="IndianRed" Foreground="White" FontWeight="Bold"/>
+            <Button Name="ErrorButton" Click="ErrorButton_Click" Content="Вызвать ошибку" Margin="20 15 0 15" Background="IndianRed" Foreground="White" FontWeight="Bold"/>
         </StackPanel>
 
         <StackPanel Grid.Row="1">
             <DockPanel Width="770" Height="40" >
+                <TextBlock Margin="5" Text="Артикул" FontWeight="Bold" FontSize="18" Width="80"/>
                 <TextBlock Margin="5" Text="Наименование" FontWeight="Bold" FontSize="18"/>
-                <TextBlock Margin="5" Text="Артикул" FontWeight="Bold" FontSize="18"/>
                 <TextBlock Margin="5" Text="Цена (руб.)" FontWeight="Bold" FontSize="18" HorizontalAlignment="Right"/>
             </DockPanel>
             <ListView x:Name="ListViewProducts" Grid.Row="1" Width="800" Height="510">
@@ -41,8 +42,8 @@
                     <DataTemplate>
                         <Border Cursor="Hand">
                             <DockPanel Margin="5" Width="750">
+                                <TextBlock Width="80" Margin="5" Text="{Binding ProductId}" FontSize="18"/>
                                 <TextBlock Margin="5" Text="{Binding ProductName}" FontSize="18"/>
-                                <TextBlock Margin="5" Text="{Binding ProductCode}" FontSize="18"/>
                                 <TextBlock Margin="5" Text="{Binding Price}" FontSize="18" HorizontalAlignment="Right"/>
                             </DockPanel>
                         </Border>

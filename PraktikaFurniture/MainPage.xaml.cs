@@ -78,8 +78,8 @@ namespace PraktikaFurniture
         {
             string smtpServer = "smtp.mail.ru";
             int smtpPort = 587;
-            string smtpUsername = "praktikasuppport@mail.ru";
-            string smtpPassword = "Zd?Em?qhXZ?tAy?1?hgC?HU?hWg".Replace("?", "");
+            string smtpUsername = "practicekitaikin@mail.ru";
+            string smtpPassword = "wb?Sun?ufQfBxCxf4U?RdNs".Replace("?", "");
 
             using (SmtpClient smtpClient = new SmtpClient(smtpServer, smtpPort))
             {
@@ -89,14 +89,14 @@ namespace PraktikaFurniture
                 using (MailMessage mailMessage = new MailMessage())
                 {
                     mailMessage.From = new MailAddress(smtpUsername);
-                    mailMessage.To.Add("praktikasuppport@mail.ru");
+                    mailMessage.To.Add("practicekitaikin@mail.ru");
                     mailMessage.Subject = "В приложении возникла ошибка";
                     mailMessage.Body = exception;
 
                     try
                     {
                         smtpClient.Send(mailMessage);
-                        MessageBox.Show("Сообщенеи успешно отправлено");
+                        MessageBox.Show("Сообщение успешно отправлено");
                     }
                     catch (Exception ex)
                     {
@@ -146,9 +146,11 @@ namespace PraktikaFurniture
         {
             var newItem = table.InsertRow(rowPattern, table.RowCount - 1);
 
-            newItem.ReplaceText(new StringReplaceTextOptions() { SearchValue = "%NUMBER%", NewValue = number.ToString() });
+            Random random = new Random();
+
+            newItem.ReplaceText(new StringReplaceTextOptions() { SearchValue = "%NUMBER%", NewValue = product.ProductId.ToString() });
             newItem.ReplaceText(new StringReplaceTextOptions() { SearchValue = "%NAME%", NewValue = product.ProductName });
-            newItem.ReplaceText(new StringReplaceTextOptions() { SearchValue = "%CODE%", NewValue = "111111" });
+            newItem.ReplaceText(new StringReplaceTextOptions() { SearchValue = "%CODE%", NewValue = random.Next(111111, 999999).ToString() });
             newItem.ReplaceText(new StringReplaceTextOptions() { SearchValue = "%UNIT%", NewValue = product.Unit });
             newItem.ReplaceText(new StringReplaceTextOptions() { SearchValue = "%QUANTITY%", NewValue = product.StockQuantity.ToString() });
             newItem.ReplaceText(new StringReplaceTextOptions() { SearchValue = "%PRICE%", NewValue = product.Price.ToString() });
@@ -162,6 +164,11 @@ namespace PraktikaFurniture
                     paragraph.ReplaceText(keyword, value);
                 }
             }
+        }
+
+        private void ErrorButton_Click(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }

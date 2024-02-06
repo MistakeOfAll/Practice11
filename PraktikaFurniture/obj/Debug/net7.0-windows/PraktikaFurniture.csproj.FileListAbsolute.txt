@@ -241,3 +241,4 @@ C:\Users\kitai\OneDrive\Рабочий стол\Практика Головин\
 C:\Users\kitai\OneDrive\Рабочий стол\Практика Головин\PraktikaFurniture-main\PraktikaFurniture\obj\Debug\net7.0-windows\PraktikaFurniture.pdb
 C:\Users\kitai\OneDrive\Рабочий стол\Практика Головин\PraktikaFurniture-main\PraktikaFurniture\obj\Debug\net7.0-windows\PraktikaFurniture.genruntimeconfig.cache
 C:\Users\kitai\OneDrive\Рабочий стол\Практика Головин\PraktikaFurniture-main\PraktikaFurniture\obj\Debug\net7.0-windows\ref\PraktikaFurniture.dll
+C:\Users\kitai\OneDrive\Рабочий стол\Практика Головин\PraktikaFurniture-main\PraktikaFurniture\obj\Debug\net7.0-windows\PraktikaFurniture.sourcelink.json

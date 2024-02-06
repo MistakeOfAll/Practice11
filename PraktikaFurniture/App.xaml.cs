@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
 using PraktikaFurniture.Models;
 using System;
 using System.Windows;
@@ -13,18 +14,16 @@ namespace PraktikaFurniture
         {
             base.OnStartup(e);
 
-            // Инициализация и конфигурация служб
             var host = new HostBuilder()
                 .ConfigureServices((context, services) =>
                 {
                     services.AddDbContext<HardwareStoreDbContext>(options =>
                     {
-                        options.UseNpgsql("Server=localhost;Database=HardwareStore;UserName=anton;Password=123");
+                        options.UseSqlServer("Server=localhost;Database=HardwareStore;User Id=anton;Password=123; TrustServerCertificate=True;");
                     });
                 })
                 .Build();
 
-            // Запуск приложения
             using (var serviceScope = host.Services.CreateScope())
             {
                 var serviceProvider = serviceScope.ServiceProvider;

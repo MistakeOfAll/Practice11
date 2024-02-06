@@ -4026,13 +4026,13 @@
     "C:\\Users\\kitai\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0.1",
+    "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kitai\\OneDrive\\Рабочий стол\\Практика Головин\\PraktikaFurniture-main\\PraktikaFurniture\\PraktikaFurniture.csproj",
+      "projectUniqueName": "C:\\Users\\kitai\\OneDrive\\Рабочий стол\\Практика Головин\\PraktikaUserApp\\PraktikaFurniture\\PraktikaFurniture.csproj",
       "projectName": "PraktikaFurniture",
-      "projectPath": "C:\\Users\\kitai\\OneDrive\\Рабочий стол\\Практика Головин\\PraktikaFurniture-main\\PraktikaFurniture\\PraktikaFurniture.csproj",
+      "projectPath": "C:\\Users\\kitai\\OneDrive\\Рабочий стол\\Практика Головин\\PraktikaUserApp\\PraktikaFurniture\\PraktikaFurniture.csproj",
       "packagesPath": "C:\\Users\\kitai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kitai\\OneDrive\\Рабочий стол\\Практика Головин\\PraktikaFurniture-main\\PraktikaFurniture\\obj\\",
+      "outputPath": "C:\\Users\\kitai\\OneDrive\\Рабочий стол\\Практика Головин\\PraktikaUserApp\\PraktikaFurniture\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kitai\\AppData\\Roaming\\NuGet\\NuGet.Config",
