@@ -1,5 +1,5 @@
 ﻿PraktikaFurniture
-1.0.0.0
+1.0.0.1
 
 winexe
 C#
@@ -16,5 +16,5 @@ C:\Users\kitai\OneDrive\Рабочий стол\Практика Головин\
 250749677254
 MainPage.xaml;MainWindow.xaml;UpdaterWindow.xaml;
 
-False
+True
 
