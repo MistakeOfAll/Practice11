@@ -5,11 +5,12 @@
     <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-	<Version>1.0.0.1</Version>
+	<Version>1.0.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="doc-template.docx" />
+    <None Remove="Resources\photo.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -39,6 +40,11 @@
 
 	<ItemGroup>
 	  <Folder Include="Migrations\" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <Resource Include="Resources\photo.png" />
 	</ItemGroup>
 
 </Project>

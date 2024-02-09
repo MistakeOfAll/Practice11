@@ -12,12 +12,12 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\kitai\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\kitai\\.nuget\\packages"
+      "C:\\Users\\admin\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\admin\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
       "System.Reflection.NullabilityInfoContext.IsSupported": true,
-      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }

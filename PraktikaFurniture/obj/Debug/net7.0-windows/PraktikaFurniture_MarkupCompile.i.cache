@@ -1,20 +1,20 @@
 ﻿PraktikaFurniture
-1.0.0.1
+1.0.0.2
 
 winexe
 C#
 .cs
-C:\Users\kitai\OneDrive\Рабочий стол\Практика Головин\PraktikaUserApp\PraktikaFurniture\obj\Debug\net7.0-windows\
+C:\Users\admin\Desktop\Практика Головин\PraktikaUserApp\PraktikaFurniture\obj\Debug\net7.0-windows\
 PraktikaFurniture
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-C:\Users\kitai\OneDrive\Рабочий стол\Практика Головин\PraktikaUserApp\PraktikaFurniture\App.xaml
+C:\Users\admin\Desktop\Практика Головин\PraktikaUserApp\PraktikaFurniture\App.xaml
 3-1482456106
 
 14-893007361
-250749677254
+250-1601911851
 MainPage.xaml;MainWindow.xaml;UpdaterWindow.xaml;
 
-True
+False
 

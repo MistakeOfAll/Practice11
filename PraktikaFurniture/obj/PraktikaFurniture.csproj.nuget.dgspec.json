@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kitai\\OneDrive\\Рабочий стол\\Практика Головин\\PraktikaUserApp\\PraktikaFurniture\\PraktikaFurniture.csproj": {}
+    "C:\\Users\\admin\\Desktop\\Практика Головин\\PraktikaUserApp\\PraktikaFurniture\\PraktikaFurniture.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kitai\\OneDrive\\Рабочий стол\\Практика Головин\\PraktikaUserApp\\PraktikaFurniture\\PraktikaFurniture.csproj": {
-      "version": "1.0.0.1",
+    "C:\\Users\\admin\\Desktop\\Практика Головин\\PraktikaUserApp\\PraktikaFurniture\\PraktikaFurniture.csproj": {
+      "version": "1.0.0.2",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kitai\\OneDrive\\Рабочий стол\\Практика Головин\\PraktikaUserApp\\PraktikaFurniture\\PraktikaFurniture.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Практика Головин\\PraktikaUserApp\\PraktikaFurniture\\PraktikaFurniture.csproj",
         "projectName": "PraktikaFurniture",
-        "projectPath": "C:\\Users\\kitai\\OneDrive\\Рабочий стол\\Практика Головин\\PraktikaUserApp\\PraktikaFurniture\\PraktikaFurniture.csproj",
-        "packagesPath": "C:\\Users\\kitai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kitai\\OneDrive\\Рабочий стол\\Практика Головин\\PraktikaUserApp\\PraktikaFurniture\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Desktop\\Практика Головин\\PraktikaUserApp\\PraktikaFurniture\\PraktikaFurniture.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\Практика Головин\\PraktikaUserApp\\PraktikaFurniture\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kitai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -90,7 +95,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

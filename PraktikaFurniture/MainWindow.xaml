@@ -14,6 +14,7 @@
     <Grid>
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Row = "1"/>
         <StackPanel Background="AliceBlue" Grid.Row="0"></StackPanel>
+        <Image Source="pack://application:,,,/Resources/photo.png"/>
         <TextBlock Text="HardwareStore" FontWeight="Black"
                    HorizontalAlignment = "Left" VerticalAlignment="Center" Foreground="IndianRed" FontSize="40" Margin="30"/>
         <TextBlock Text="Version: " Name="VersionTextBlock" FontWeight="Thin" Foreground="DarkBlue"

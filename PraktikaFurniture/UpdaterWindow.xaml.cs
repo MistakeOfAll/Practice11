@@ -36,7 +36,7 @@ namespace PraktikaFurniture
                 VersionsComboBox.ItemsSource = updater.Releases.Result;
             else
             {
-                AvailableVersionsTextBlock.Text = "No any available version(";
+                AvailableVersionsTextBlock.Text = "Нет доступных версий(";
                 MessageTextBlock.Text = "Stay tuned and follow my GitHub!";
                 VersionsComboBox.IsEnabled = false;
                 UpdateBttn.IsEnabled = false;
@@ -68,7 +68,7 @@ namespace PraktikaFurniture
                             => DownloadProgressBar.Value = e.ProgressPercentage;
                         client.DownloadFileCompleted += (s, e) =>
                         {
-                            MessageBox.Show("The download is done!");
+                            MessageBox.Show("Обновление установлено!");
                             this.Close();
                             updater.ApplyNewUpdateCmd();
                         };
@@ -76,7 +76,7 @@ namespace PraktikaFurniture
                         client.DownloadFileAsync(new Uri(releaseToDownload.Assets[0].BrowserDownloadUrl), $"newUpdate.exe");
                     }
                 }
-                else { MessageBox.Show($"bruh...", "", MessageBoxButton.OK, MessageBoxImage.Question); }
+                else { MessageBox.Show($"Ошибка", "", MessageBoxButton.OK, MessageBoxImage.Question); }
             }
         }
     }
